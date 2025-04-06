@@ -48,7 +48,7 @@ const Cards = () => {
             <img
               src={event.image}
               alt={event.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-72 object-cover"
             />
             <div className="p-4 flex justify-between items-center">
               <h3 className="text-base font-bold">{event.title}</h3>
